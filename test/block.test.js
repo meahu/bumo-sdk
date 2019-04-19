@@ -18,6 +18,6 @@ async function getInfo (blockNumber) {
     console.log(JSON.stringify(res));
 }
 
-getNumber();
-getTransactions(2945358);
-// getInfo(2945358);
+// getNumber();
+// getTransactions(2945358);
+getInfo(2945358);
